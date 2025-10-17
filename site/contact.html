@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liên hệ — Headhunt Pro</title>
+  <link rel="stylesheet" href="/site/assets/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo" style="font-weight:800;color:#0e7490">Headhunt Pro</div>
+      <nav class="nav">
+        <a href="/site/index.html">Trang chủ</a>
+        <a href="/site/services.html">Dịch vụ</a>
+        <a href="/site/jobs.html">Việc làm</a>
+        <a href="/site/contact.html">Liên hệ</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Liên hệ hợp tác</h1>
+      <p>Gửi yêu cầu tuyển dụng hoặc hồ sơ ứng tuyển. Chúng tôi sẽ phản hồi trong 24h.</p>
+    </section>
+
+    <section>
+      <form class="card" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="grid">
+          <div>
+            <label>Họ tên</label>
+            <input name="name" required />
+          </div>
+          <div>
+            <label>Email</label>
+            <input name="email" type="email" required />
+          </div>
+          <div>
+            <label>Số điện thoại</label>
+            <input name="phone" />
+          </div>
+        </div>
+        <div>
+          <label>Nội dung</label>
+          <textarea name="message" rows="5" required></textarea>
+        </div>
+        <button class="btn" type="submit">Gửi</button>
+      </form>
+    </section>
+
+    <footer class="footer">© <span data-year></span> Headhunt Pro</footer>
+  </div>
+  <script src="/site/assets/js/main.js" defer></script>
+</body>
+</html>
