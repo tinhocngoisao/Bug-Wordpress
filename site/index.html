@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Headhunt Company — Kết nối nhân tài</title>
+    <meta name="description" content="Công ty headhunt: Kết nối nhân tài với doanh nghiệp hàng đầu." />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Headhunt Company</h1>
+      <p>Kết nối nhân tài với doanh nghiệp hàng đầu.</p>
+      <nav>
+        <a href="#jobs">Việc làm</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="container hero">
+        <h2>Giải pháp tuyển dụng nhanh, hiệu quả</h2>
+        <p>Chúng tôi đồng hành cùng doanh nghiệp tìm đúng người — đúng thời điểm.</p>
+        <a class="cta" href="#contact">Đặt lịch tư vấn</a>
+      </section>
+
+      <section id="filters" class="container filters">
+        <input id="q" type="search" placeholder="Tìm theo tiêu đề công việc..." />
+        <select id="location">
+          <option value="">Địa điểm</option>
+        </select>
+        <select id="department">
+          <option value="">Phòng ban</option>
+        </select>
+      </section>
+
+      <section id="jobs" class="container">
+        <h3>Việc làm nổi bật</h3>
+        <ul id="job-list" class="jobs"></ul>
+      </section>
+
+      <section id="services" class="container services">
+        <h3>Dịch vụ</h3>
+        <ul>
+          <li>Tuyển dụng vị trí cấp cao (Executive Search)</li>
+          <li>Thuê ngoài quy trình tuyển dụng (RPO)</li>
+          <li>Tư vấn nhân sự, đánh giá năng lực</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h3>Liên hệ</h3>
+        <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+        <p>Zalo/Phone: 0900 000 000</p>
+        <form id="contact-form" onsubmit="return false;">
+          <input type="text" id="name" placeholder="Họ và tên" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea id="message" placeholder="Nội dung" required></textarea>
+          <button type="submit">Gửi</button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>© <span id="year"></span> Headhunt Company. All rights reserved.</p>
+    </footer>
+
+    <script src="./assets/app.js" defer></script>
+  </body>
+</html>

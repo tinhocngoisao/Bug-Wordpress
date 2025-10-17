@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Giám đốc Marketing (MarTech)",
+    "department": "Marketing",
+    "location": "TP. Hồ Chí Minh",
+    "summary": "Dẫn dắt chiến lược tăng trưởng, triển khai stack MarTech và tối ưu phễu.",
+    "applyUrl": "https://forms.gle/example1"
+  },
+  {
+    "title": "Trưởng phòng Kinh doanh B2B",
+    "department": "Sales",
+    "location": "Hà Nội",
+    "summary": "Phát triển doanh số doanh nghiệp, quản trị pipeline và đội ngũ bán hàng.",
+    "applyUrl": "https://forms.gle/example2"
+  },
+  {
+    "title": "Kỹ sư Machine Learning",
+    "department": "Engineering",
+    "location": "TP. Hồ Chí Minh",
+    "summary": "Xây dựng mô hình ML phục vụ sản phẩm dữ liệu và phân tích.",
+    "applyUrl": "https://forms.gle/example3"
+  }
+]
