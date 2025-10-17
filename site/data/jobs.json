@@ -1,0 +1,32 @@
+[
+  {
+    "id": "se-001",
+    "title": "Senior Backend Engineer",
+    "company": "FinPay",
+    "location": "Hanoi",
+    "type": "Full-time",
+    "salary": "$2,500 - $4,000",
+    "tags": ["Java", "Spring", "PostgreSQL"],
+    "description": "Own core payment services, improve reliability and performance."
+  },
+  {
+    "id": "fe-015",
+    "title": "Frontend Engineer",
+    "company": "ShopX",
+    "location": "Ho Chi Minh City",
+    "type": "Hybrid",
+    "salary": "$1,800 - $2,800",
+    "tags": ["React", "TypeScript", "Next.js"],
+    "description": "Build delightful ecommerce UI with modern tooling."
+  },
+  {
+    "id": "ds-103",
+    "title": "Data Scientist",
+    "company": "HealthAI",
+    "location": "Da Nang",
+    "type": "Remote",
+    "salary": "$2,200 - $3,500",
+    "tags": ["Python", "ML", "Airflow"],
+    "description": "Develop predictive models and deploy data pipelines."
+  }
+]
